@@ -11,12 +11,12 @@
     "babel-preset-es2015": "^6.24.1"
   },
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "build": "babel --presets es2015 -d lib/ index.js && node ./lib/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --presets es2015 -d lib/ index.js && node ./lib/index.js"
   },
   "keywords": [
     "Labo"
   ],
   "author": "Mathias BOISGARD",
-  "license": "ISC"  
+  "license": "ISC"
 }
